@@ -5,11 +5,12 @@ const getWeatherData = (postcodeInfo) => {
     .then(response => response.json())  // access JSON object
     .then(json => {
         weatherInfo = {
-             description: json.weather[0].icon,  // target property related to weather description
+             description: json.weather[0].description, // target property related to weather description
+             iconCode: json.weather[0].icon,  // target property related to weather icon code
              temperature: json.main.temp    // target property related to temperature data
         }
         displayResultsWeather.innerText = `It's ${weatherInfo.description} today and the temperature is ${weatherInfo.temperature}`; //Insert updated weather text into the paragraph tag
-        const imgSrc = weatherInfo.description.replace(" ", "-");
+        const imgSrc = weatherInfo.iconCode.slice(0, -1);
         displayResultsImage.src = `./images/${imgSrc}.svg`;
     })
     .catch(error => console.log(error));
