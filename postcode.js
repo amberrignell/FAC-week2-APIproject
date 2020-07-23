@@ -2,6 +2,9 @@
 let inputPostcode = document.querySelector('#postcode'); // targetting when a postcode in the UK
 let postcodeInfo = { } // creating object for GET method of postcode information
 const form = document.querySelector('form'); //targetting form
+const displayResultsWeather = document.querySelector(".display-results-weather"); //get element where weather results will display
+const displayResultsCovid = document.querySelector(".display-results-covid"); // get element where covid results will display
+const displayResultsImage = document.querySelector(".display-results-img"); //get img where icons will be inputted
 
 // event listener for the submit button
 form.addEventListener("submit", event => {
@@ -23,7 +26,7 @@ form.addEventListener("submit", event => {
             }       
             return postcodeInfo;
         })
-        //third then is to utilise the postCodeInfo extracted data to plug into the getCovdData and getWeatherData
+        //third then is to utilise the postCodeInfo extracted data to plug into the getCovdData and getWeatherData to updated the results text
         .then(postcodeInfo => {
             getCovidData(postcodeInfo);
             getWeatherData(postcodeInfo);
