@@ -12,7 +12,7 @@ const getCovidData = (postcodeInfo) => {
                         currentValue.location.includes(postcodeInfo.county)  ||  // so we match decreasingly precise areas until we find a match
                         currentValue.location.includes(postcodeInfo.country));
             })
-            covidInfo = target[0]               // this will be the object with 2 properties. Location and Covid figure.
+            displayResultsCovid.innerText = `There are ${covidInfo.number} cases of Covid in ${covidInfo.location}`; // This is the text displayed in the results for the Covid and Area part
         })
         .catch( error => console.error("error!"))
 }
