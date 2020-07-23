@@ -7,7 +7,7 @@ const displayResultsCovid = document.querySelector(".display-results-covid"); //
 const displayResultsImage = document.querySelector(".display-results-img"); //get img where icons will be inputted
 
 // event listener for the submit button
-form.addEventListener("submit", event => {
+const getData = (event) => {
     event.preventDefault();
     fetch(`https://api.postcodes.io/postcodes/${inputPostcode.value}`) // fetch for postcode information, adding information to then use to access covid and weather data
         //first is to catch any invalid UK postcodes, and if not to convert data into JSON
@@ -40,4 +40,7 @@ form.addEventListener("submit", event => {
                 window.alert("⚠️ Something went wrong");
             }
         })
-});
+};
+
+form.addEventListener("submit", getData);
+form.addEventListener("keyup", getData);
