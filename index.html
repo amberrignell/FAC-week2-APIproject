@@ -4,23 +4,26 @@
     <title>Weather and Corona</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=VT323&display=swap" rel="stylesheet">
 </head>
     
 
 <body>
 <main>
+    <section class="landing-page">
+        <h1>Rainy with a chance of plague</h1>
 
-    <h1>Rainy with a chance of plague</h1>
+        <img src="./images/image-removebg-preview.png" class="zombie">
 
-    <p>Input your postcode to find out the number of covid cases in your area</p>
+        <p>Input your postcode to find out the number of Covid-19 cases and weather conditions in your area</p>
    
-    <form>
-        <label for="postcode">Enter your postcode:</label>
-        <input type="text" id="postcode" name="postcode" class="postcode">
-        <input type="submit" value="Wish me luck!" class="submit"></input>
-    </form>
-
+        <form>
+            <label for="postcode">Enter your postcode:</label>
+            <input type="text" id="postcode" name="postcode" class="postcode">
+            <input type="submit" value="Wish me luck!" class="submit"></input>
+        </form>
+    </section>
+        
     <section class="display-results">
         <img src="./images/clear-sky.svg">
         <p class="display-results-text">It's SUNNY today, and there are 700 cases of Covid in Lewisham</p>
@@ -32,9 +35,6 @@
     
 </footer>
 
-<footer>
-    
-</footer>
 <script src="postcode.js"></script>
 <script src="weather.js"></script>
 <script src="covid.js"></script>
