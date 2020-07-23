@@ -9,9 +9,10 @@ const getWeatherData = (postcodeInfo) => {
              iconCode: json.weather[0].icon,  // target property related to weather icon code
              temperature: json.main.temp    // target property related to temperature data
         }
-        displayResultsWeather.innerText = `It's ${weatherInfo.description} today and the temperature is ${weatherInfo.temperature}`; //Insert updated weather text into the paragraph tag
+        displayResultsWeather.innerText = `It's ${weatherInfo.description} today and the temperature is ${weatherInfo.temperature} degrees celsius.`; //Insert updated weather text into the paragraph tag
         const imgSrc = weatherInfo.iconCode.slice(0, -1);
-        displayResultsImage.src = `./images/${imgSrc}.svg`;
+        displayResultsImage.src = `./images/${imgSrc}.svg`; // change image depending on weather conditions.
+        displayResultsImage.alt = weatherInfo.description; // alt attribute is set to describe weather
     })
     .catch(error => console.log(error));
 }
