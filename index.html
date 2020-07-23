@@ -9,7 +9,7 @@
     
 
 <body>
-<main>
+<main id="">
     <section class="landing-page">
         <h1>Rainy with a chance of plague</h1>
 
@@ -20,19 +20,25 @@
     <form>
         <label for="postcode">Enter your postcode:</label>
         <input type="text" id="postcode" name="postcode" class="postcode">
-        <input type="submit" value="Wish me luck!" class="submit"></input>
+        <input type="submit" onclick="location.href='#results'" value="Wish me luck!" class="submit">
+
+    </input>
+        
     </form>
     </section>
-    <section class="display-results">
-        <img class="display-results-img" src="./images/clear-sky.svg">
+    <section class="display-results none" id="results">
+        <img class="display-results-img" src="./images/01.svg">
         <p class="display-results-weather">It's SUNNY today, </p>
         <p class="display-results-covid">and there are 700 cases of Covid-19 in Lewisham</p>
     </section>
-
+    <button onclick="location.href='#'">Up</button>
 </main>
 
 <footer>
-    
+    <p> Source: <a href="https://postcodes.io/">Postcodes API</a> </br>
+        Source: <a href="https://documenter.getpostman.com/view/9215231/SzYZ2Jss?version=latest">UK Coronavirus Data API</a></br>
+        Source: <a href="https://openweathermap.org/api">Open Weather API</a>
+    </p>
 </footer>
 
 <script src="postcode.js"></script>
