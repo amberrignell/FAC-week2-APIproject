@@ -25,8 +25,8 @@ form.addEventListener("submit", event => {
         })
         //third then is to utilise the postCodeInfo extracted data to plug into the getCovdData and getWeatherData
         .then(postcodeInfo => {
-            getCovidData(postcodeInfo)
-
+            getCovidData(postcodeInfo);
+            getWeatherData(postcodeInfo);
         })
 
         //catch to catch any invalid postcodes
