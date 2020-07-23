@@ -64,4 +64,14 @@ input {
     background-color: hsl(183, 100%, 37%);
 }
 
+section {
+    margin-top: 4rem;
+}
+
+section img {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: block;
+}
 
