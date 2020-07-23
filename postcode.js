@@ -6,7 +6,7 @@ const displayResultsWeather = document.querySelector(".display-results-weather")
 const displayResultsCovid = document.querySelector(".display-results-covid"); // get element where covid results will display
 const displayResultsImage = document.querySelector(".display-results-img"); //get img where icons will be inputted
 
-// event listener for the submit button
+// main function that queries all APIs 
 const getData = (event) => {
     event.preventDefault();
     fetch(`https://api.postcodes.io/postcodes/${inputPostcode.value}`) // fetch for postcode information, adding information to then use to access covid and weather data
@@ -42,5 +42,12 @@ const getData = (event) => {
         })
 };
 
+//event listeners that trigger our main function 
+//if the submit button is clicked 
 form.addEventListener("submit", getData);
-form.addEventListener("keyup", getData);
+//or if the user hits enter
+form.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+     getData;
+    }
+  });
