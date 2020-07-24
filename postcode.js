@@ -6,6 +6,7 @@ const displayResultsWeather = document.querySelector(".display-results-weather")
 const displayResultsCovid = document.querySelector(".display-results-covid"); // get element where covid results will display
 const displayResultsImage = document.querySelector(".display-results-img"); //get img where icons will be inputted
 const displayArea = document.querySelector(".display-results");
+const footer = document.querySelector("footer");
 
 // main function that queries all APIs 
 const getData = (event) => {
