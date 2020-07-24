@@ -1,4 +1,4 @@
-# Cloudy With A Chance Of Plague
+# Rainy With A Chance Of Plague
 
 This is an app in which a user can enter their postcode and see the current weather conditions and number of confirmed COVID-19 cases in their area.
 
@@ -19,10 +19,11 @@ https://openweathermap.org/api
 Contains region specific data on number of confirmed COVID-19 cases. 
 https://documenter.getpostman.com/view/9215231/SzYZ2Jss?version=latest
 
-**The Team**
+**The Team** 🧠🧠🧠
 
-* Amber: Design
-* Josh: Scrum Master
-* Lisa: Deploymen/Quality
-* My Hoa: Deployment/Quality
+* [Amber]: https://github.com/amberrignell (Design)
+* [Josh]: https://github.com/jhart5 (Scrum Master)
+* [Lisa]: https://github.com/LiCern (Deploymen/Quality)
+* [My Hoa]: https://github.com/mhtien (Deployment/Quality)
+
 
