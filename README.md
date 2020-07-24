@@ -29,7 +29,7 @@ https://documenter.getpostman.com/view/9215231/SzYZ2Jss?version=latest
 
 ## Build :hammer:
 
-> *Tools we owe to :wrench:*
+> *What did we use? to :wrench:*
 
 - Figma
 - VSCode
