@@ -5,7 +5,7 @@ We built it in a 1.5 days as the weekly project for [Founder and Coders](https:/
 
 ## User journey 🧚‍♀️
 
-1. Users will will type in their UK postcode and either hit enter or click the "Wish me luck" button. 
+1. Users will type in their UK postcode and either hit enter or click the "Wish me luck" button. 
 2. The page will smoothly scroll down to display the following information relating to the inputted postcode:
 
     - Image of the current weather condition
@@ -14,6 +14,29 @@ We built it in a 1.5 days as the weekly project for [Founder and Coders](https:/
     - Number of Covid-19 cases
 
 3. If the user inputs an invalid or inexistent postcode a pop-up message will be displayed "Couldn't find [inputted postcode]"
+4. If the user wishes to search another postcode they can click on the up button and the page with scroll back up to the search bar.
+
+## User Stories
+Core stories
+As a user, I want to:
+
+See an interesting mashup of different data ☑️
+Input information to change the displayed result ☑️
+View the app on all of my devices ☑️
+Since your app will be unique you will need to create your own user stories for more specific features. ☑️
+
+- Stretch stories
+
+As an impatient user, I want to see some indication that data is loading ☑️
+As a confused user, I want to be told when something goes wrong
+
+## Acceptance Criteria
+Query at least two APIs using fetch
+Dynamic content generated with JS
+A clearly defined user journey, documented in your readme
+A responsive, mobile-first design
+Ensure your app is accessible to as many different users as possible
+Try not to push API keys up to GitHub (since anyone can see them there)
 
 ## APIs used 📚
 
@@ -52,6 +75,9 @@ https://documenter.getpostman.com/view/9215231/SzYZ2Jss?version=latest
 - Command Line
 - HTML & CSS
 - Vanilla JavaScript
+- Jitsi
+- Zoom
+- ...Google, Google, Google
 
 ## Features 🔎
 
