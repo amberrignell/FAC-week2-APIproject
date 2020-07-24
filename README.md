@@ -1,4 +1,4 @@
-# Rainy With A Chance Of Plague ☔
+# [Rainy With A Chance Of Plague](fac20.github.io/api-project-dfjl/) ☔
 
 This is an app in which a user can enter their postcode and see the current weather conditions and number of confirmed COVID-19 cases in their area. 
 We built it in a 1.5 days as the weekly project for [Founder and Coders](https://www.foundersandcoders.com/) week 2 which focused on HTTP (API, fetch, promises).
@@ -78,7 +78,7 @@ https://documenter.getpostman.com/view/9215231/SzYZ2Jss?version=latest
 
 ## Build :hammer:
 
-> *What did we use? to :wrench:*
+> *What did we use? :wrench:*
 
 - Figma
 - Colorzilla 
