@@ -1,18 +1,21 @@
 # Rainy With A Chance Of Plague ☔
 
-This is an app in which a user can enter their postcode and see the current weather conditions and number of confirmed COVID-19 cases in their area.
+This is an app in which a user can enter their postcode and see the current weather conditions and number of confirmed COVID-19 cases in their area. 
+We built it in a 1.5 days as the weekly project for [Founder and Coders](https://www.foundersandcoders.com/) week 2 which focused on HTTP (API, fetch, promises).
 
-## How it all works 🧚‍♀️
-Users will will type in their UK postcode and either hit enter or click the "Wish me luck" button. The page will smoothly scroll down to display the following information relating to the inputted postcode:
+## User journey 🧚‍♀️
 
-- Image of the current weather condition
-- Weather description (e.g. "light rain", "overcast clouds")
-- Temperature in degree celsius
-- Number of Covid-19 cases
+1. Users will will type in their UK postcode and either hit enter or click the "Wish me luck" button. 
+2. The page will smoothly scroll down to display the following information relating to the inputted postcode:
 
-If the user inputs and invalid or inexistent postcode a pop-up message will be displayed "Couldn't find [inputted postcode]"
+    - Image of the current weather condition
+    - Weather description (e.g. "light rain", "overcast clouds")
+    - Temperature in degree celsius
+    - Number of Covid-19 cases
 
-## APIs used
+3. If the user inputs an invalid or inexistent postcode a pop-up message will be displayed "Couldn't find [inputted postcode]"
+
+## APIs used 📚
 
 3 APIs were used in the making of this app:
 
@@ -29,7 +32,7 @@ https://openweathermap.org/api
 Contains region specific data on number of confirmed COVID-19 cases. 
 https://documenter.getpostman.com/view/9215231/SzYZ2Jss?version=latest
 
-## The Team 🧠🧠🧠
+## The Team 🧠
 
 1. [Amber](https://github.com/amberrignell) (Design)
 2. [Josh](https://github.com/jhart5) (Scrum Master)
