@@ -1,6 +1,16 @@
-# Rainy With A Chance Of Plague
+# Rainy With A Chance Of Plague :umbrella_with_rain_drops:
 
 This is an app in which a user can enter their postcode and see the current weather conditions and number of confirmed COVID-19 cases in their area.
+
+## How it all works :female_fairy:
+Users will will type in their UK postcode and either hit enter or click the "Wish me luck" button. The page will smoothly scroll down to display the following information relating to the inputted postcode:
+
+[x] Weather description (e.g. "light rain", "overcast clouds")
+[x] Temperature in degree celsius
+[x] Number of Covid-19 cases
+
+If user inputs something then a programming quote with the users input will be displayed , otherwise the quotes will be generated randomly
+Results will be displayed in card-form => which include art images and quotes beneath them
 
 ## APIs used
 
