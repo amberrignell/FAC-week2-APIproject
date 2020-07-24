@@ -29,7 +29,7 @@ https://openweathermap.org/api
 Contains region specific data on number of confirmed COVID-19 cases. 
 https://documenter.getpostman.com/view/9215231/SzYZ2Jss?version=latest
 
-**The Team** 🧠🧠🧠
+## The Team 🧠🧠🧠
 
 1. [Amber](https://github.com/amberrignell) (Design)
 2. [Josh](https://github.com/jhart5) (Scrum Master)
@@ -42,13 +42,14 @@ https://documenter.getpostman.com/view/9215231/SzYZ2Jss?version=latest
 > *What did we use? to :wrench:*
 
 - Figma
+- Colorzilla 
+- APIs 
 - VSCode
-- GitHub
+- Git & GitHub
 - Command Line
 - HTML & CSS
 - Vanilla JavaScript
 
 ## Features 🔎
-
 
 
