@@ -16,7 +16,7 @@ const getWeatherData = (postcodeInfo) => {
         displayResultsImage.alt = weatherInfo.description; // alt attribute is set to describe weather
         footer.scrollIntoView(); // forces page to scroll down
     })
-    .catch(error => console.log(error));
+    .catch(error => console.error(error));
 }
 
 
