@@ -17,18 +17,26 @@ We built it in a 1.5 days as the weekly project for [Founder and Coders](https:/
 4. If the user wishes to search another postcode they can click on the up button and the page with scroll back up to the search bar.
 
 ## User Stories
-Core stories
+
+**Core stories**
 As a user, I want to:
 
-See an interesting mashup of different data ☑️
-Input information to change the displayed result ☑️
-View the app on all of my devices ☑️
-Since your app will be unique you will need to create your own user stories for more specific features. ☑️
+* See an interesting mashup of different data ☑️
+* Input information to change the displayed result ☑️
+* View the app on all of my devices ☑️
+* See/hear the content clearly ☑️
+* Have a spacious and easy to navigate layout ☑️
+* Have a clear space to enter my postcode ☑️
+* Check another postcode without refreshing the page ☑️
+* Navigate the site using keyboard control ☑️
 
-- Stretch stories
+As journalist/scientist, I need to know the source of the data.
 
-As an impatient user, I want to see some indication that data is loading ☑️
-As a confused user, I want to be told when something goes wrong
+**Stretch stories**
+
+* As a user, I want to be shown the location of my postcode. 
+* As an impatient user, I want to see some indication that data is loading 
+* As a confused user, I want to be told when something goes wrong ☑️
 
 ## Acceptance Criteria
 Query at least two APIs using fetch
@@ -78,7 +86,5 @@ https://documenter.getpostman.com/view/9215231/SzYZ2Jss?version=latest
 - Jitsi
 - Zoom
 - ...Google, Google, Google
-
-## Features 🔎
 
 
