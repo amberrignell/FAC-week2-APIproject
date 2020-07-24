@@ -14,6 +14,7 @@ https://postcodes.io/
 **Weather API:**
 Takes longitude and latitude as arguments. Used to return basic weather conditions (i.e. 'clouds', 'clear sky') and temperature. Temperatures converted to Celsius.
 https://openweathermap.org/api
+
 **Covid-19 API**
 Contains region specific data on number of confirmed COVID-19 cases. 
 https://documenter.getpostman.com/view/9215231/SzYZ2Jss?version=latest
