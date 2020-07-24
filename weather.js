@@ -14,7 +14,7 @@ const getWeatherData = (postcodeInfo) => {
         const imgSrc = weatherInfo.iconCode.slice(0, -1);
         displayResultsImage.src = `./images/${imgSrc}.svg`; // change image depending on weather conditions.
         displayResultsImage.alt = weatherInfo.description; // alt attribute is set to describe weather
-        displayArea.scrollIntoView(true); // forces page to scroll down
+        footer.scrollIntoView(); // forces page to scroll down
     })
     .catch(error => console.log(error));
 }
