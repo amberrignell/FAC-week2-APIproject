@@ -21,9 +21,24 @@ https://documenter.getpostman.com/view/9215231/SzYZ2Jss?version=latest
 
 **The Team** 🧠🧠🧠
 
-1. [Amber]https://github.com/amberrignell (Design)
-2. [Josh]https://github.com/jhart5 (Scrum Master)
-3. [Lisa]https://github.com/LiCern (Deploymen/Quality)
-4. [My Hoa]https://github.com/mhtien (Deployment/Quality)
+1. [Amber](https://github.com/amberrignell) (Design)
+2. [Josh](https://github.com/jhart5) (Scrum Master)
+3. [Lisa](https://github.com/LiCern) (Deploymen/Quality)
+4. [My Hoa](https://github.com/mhtien) (Deployment/Quality)
+
+
+## Build :hammer:
+
+> *Tools we owe to :wrench:*
+
+- Figma
+- VSCode
+- GitHub
+- Command Line
+- HTML & CSS
+- Vanilla JavaScript
+
+## Features 🔎
+
 
 
